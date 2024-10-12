@@ -6,7 +6,7 @@ for (let i = 0; i < 16; i++) {
         let divChild = document.createElement('div');
         divRow.appendChild(divChild).classList.add('divChild');
         divChild.addEventListener('mouseover', function(e) {
-            e.target.style.background = "blue";
+            e.target.style.background = 'black';
         });
     }
     container.appendChild(divRow).classList.add('divRow');
